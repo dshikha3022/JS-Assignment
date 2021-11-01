@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>     
+    <head> 
+        <meta charset="utf-8">
+        <title> js Assignment-1</title> 
+         <script src="script-1.js"></script>
+         <style>
+         body{
+             text-align: center;
+             background-color: lightyellow;
+         }
+         .container h1{
+                text-align: center;
+                font-size: 30px;
+                font-family: sans-serif;
+                background-color:#c5c5db;
+                border: 3px solid purple;
+                margin:25px 19px;
+                padding: 10px 19px;}
+                 .cont p{
+                text-align: center;
+                font-size: 20px;
+                font-family: sans-serif;
+                 }
+         </style>
+        </head>
+        <body><div class="container">
+            <h1>Add javasript file to the HTML web page:-</h1></div>
+            <div class="cont"><p><b>JavaScript can be added to HTML file in two ways:-</b></p></div>
+    <ul>
+        <li>Internal JS</li>
+        <li>External JS</li>
+    </ul>
+    <h2 style="text-decoration: underline;"><i>Internal JS</i></h2>
+    <p>Internal JS: We can add JavaScript directly to our HTML file by writing the code inside the script tag. 
+    The script tag can either be placed inside the head or the body tag according to the requirement.</p>
+    <button type="button" onclick="message()">click it</button>
+         <script>
+            function message(){  
+      alert("Example of Internal JavaScript");  
+      }  
+         </script>
+    <h2 style="text-decoration: underline;"><i>External JS</i></h2>
+    <p>External JS: We can write JavaScript code in other file having an extension .js 
+    and then link this file inside the head tag of the HTML file in which we want to add this code.</p>  
+ <button type="button" onclick="msg()">Click it</button>   
+        </body>
+        </html>
